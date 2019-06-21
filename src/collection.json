@@ -1,0 +1,15 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "my-component": {
+      "factory": "./my-component",
+      "description": "我自己的定义的组件生成器，请和官方定义的生成器进行对比学习。",
+      "schema": "./my-component/schema.json"
+    },
+    "my-crud-service": {
+      "factory": "./my-crud-service",
+      "description": "CRUD Service 生成器",
+      "schema": "./my-crud-service/schema.json"
+    }
+  }
+}

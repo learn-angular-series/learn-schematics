@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "my-crud-service",
+  "title": "我自己的CRUD Service生成器",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "default": "name"
+    },
+    "path": {
+      "type": "string",
+      "default": "app"
+    },
+    "appRoot": {
+      "type": "string"
+    },
+    "sourceDir": {
+      "type": "string",
+      "default": "src/app"
+    },
+    "flat": {
+      "type": "boolean",
+      "description": "When true, creates the new files at the top level of the current project.",
+      "default": false
+    }
+  }
+}
